@@ -1,0 +1,37 @@
+
+
+kada select ng each cell;
+kukunin yung laman ng cell
+then divide siya into two array, using .split();
+yung first array is for key
+yung second array is for value
+
+once na save yung key sa variable,
+test this variable
+gamit ng function and yung argument is yung variable na to, may return statement
+and tetest yung return statement, if > 0, print the location and the number of occurence
+
+
+
+once na save yung value sa variable
+test this  variable
+
+
+
+
+String in table[i][j]
+
+example "abc, qwe"
+get the exact location
+assign the word like String = "abc, qwe"
+get the keyField = "abc"
+get the valueField = "qwe"
+
+test the keyfield in a method, arguments are "keyField", wordToFind
+
+
+
+
+
+
+

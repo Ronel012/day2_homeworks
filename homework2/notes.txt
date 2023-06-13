@@ -1,0 +1,55 @@
+
+
+	CLASS Generate
+	
+//generate random 3 char as string per method call
+public static int generateRandomNumber()
+
+
+/generate default  table
+public static String[][] generateTable(String tableDimension)
+	
+	
+
+
+	CLAS CRUDTable
+
+//print each cell in table
+public static void printEachCellInTable(String[][] table)
+
+
+//concatenate string to form key/value pair separated by comma
+public static String keyAndValueAsString()
+
+
+//insert the random  string per each cell in a table
+public static void insertRandomString(String[][] table){
+
+//locate and update
+public static void locateAndUpdateValue(String[][] table, String locationAndField, String newValue){
+
+//assemble the original and new value as one
+public static String assembleTheNewCellValue(String originalValue, String newValue, String field){
+
+//track the original cell content
+public static String trackTheOriginalCellValue(String[][] table, String location){
+
+//asceding or descending each row in a table
+public static String[] sortedEachRow(String[][] table, String sortedBy){
+
+//from an array to 2dArray
+//new 2d array with sorted table by asc/desc
+public static String[][] arrayTo2DArray(String[] sortedArray, int originalRow, int originalColumn){
+
+//add one dynamic column based on user input
+public static String[][] addColumnOnRow(String[][] table, int rowNumber){
+
+
+	CLASS TextFileProcessor
+
+//save the table to a file.txt
+public static void saveTableIntoTextFile(String[][] table) throws IOException{
+
+
+//read a file and extract data and returned it as 2d array
+public static String[][] extactData(){

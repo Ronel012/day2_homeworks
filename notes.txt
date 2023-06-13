@@ -1,0 +1,93 @@
+encapsulation
+	- object's state is being bundle within the method that operates on the same object
+	
+inheritance
+	-  the child class will inherit all the members of the parent class
+	- represent a IS-A relationship
+
+	
+polymorphism
+	- the object should pass the IS-A relationship in order to be polymorphic
+	
+	
+	Static poly
+		- happen at compile time
+		- method overloading is one of example
+			- achieve my having the same method name but different in parameter
+			
+	dynamic poly
+		- happen at run time
+		- method overriding
+			- achieve by having the same method name and paratemeter with the parent and child, and the 			child has its own implementation of a method
+			
+
+Abstract
+	- hide the implementation to the user, only the functionality is visible to the user
+	- best example is remote control, the button or functionality is only visible to the user not the 		  		implementation per button.	
+	- can be achieved by abstract class or an interface
+	
+	Abstract Class
+		- cannot be instantiated/create an object, cannot use the word 'new' to this class
+		- there should be a keyword of 'abstract' in the class declaration
+		- if one of its method is declared as abstract, then the class itself will be abstract too
+		- can have both concrete and abstract methods
+		
+	interface
+		- summary of methods that a class can do
+		- uses 'implements'
+		- once implements, the class the uses the interface must override the whole method of an interface or
+		make a body for all abstract method that an interface have
+		
+		
+List
+	- an interface
+	- uses by ArrayList and linkedList	
+	- ordered
+	
+	
+Set
+	- an interface
+	- unordered
+	- no duplications
+	
+	Class implementations
+	- HashSet
+	- TreeSet
+	- LinkedHashSet
+	
+Map
+	- an inteface
+	- key/value
+	- can use the lamdha to iterrate
+	
+	Class implementations
+	- HashMap
+	- TreeMap
+	- LinkedHashMap
+		
+		
+loop on Map
+	- Map.Entry
+		- both key and value are combined into one
+	- collections.entrySet();
+		- in order to iterate from Map.Entry
+		
+		
+		
+		
+Exceptions
+	- the program will throw an Exception Object once detected an error
+	- try/catch will handle the exception		
+		- will handle the exception object 
+		
+	Checked exception
+		- built in exception
+		- exception that can be checked by the compiler itself, compile time exception
+		
+	Unchecked exception
+		- built-in exception
+		- an exception that does not checked by the compiler, run time exception
+		
+		
+	User-defined exception
+		-
